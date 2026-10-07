@@ -1,0 +1,246 @@
+﻿pdxmesh = {
+	name = "building_special_duomo_florence_01_mesh"
+	file = "building_special_duomo_florence_01.mesh"
+	
+	scale = 0.85
+	
+	lod_percentages = { lod = { index = 1 percent = 3.0 } }
+	meshsettings = {
+		name = "building_special_duomo_florence_01_reparata_LOD_0Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_reparata_LOD_1Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_decal_02_LOD_0Shape"
+		index = 0
+		texture_diffuse = "duomo_florence_decal.dds"
+		texture_normal = "ep2_building_special_canterbury_decal_03_normal.dds"
+		texture_specular = "ep2_building_special_canterbury_decal_03_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+}
+entity = {
+	name = "building_special_duomo_florence_01_entity"
+	pdxmesh = "building_special_duomo_florence_01_mesh"
+}
+pdxmesh = {
+	name = "building_special_duomo_florence_02_mesh"
+	file = "building_special_duomo_florence_02.mesh"
+	
+	scale = 0.85
+
+	lod_percentages = { lod = { index = 1 percent = 3.0 } }
+	meshsettings = {
+		name = "building_special_duomo_florence_01_reparata_LOD_0Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_reparata_LOD_1Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_baptistery_LOD_0Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_baptistery_LOD_1Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_decal_02_LOD_0Shape"
+		index = 0
+		texture_diffuse = "duomo_florence_decal.dds"
+		texture_normal = "ep2_building_special_canterbury_decal_03_normal.dds"
+		texture_specular = "ep2_building_special_canterbury_decal_03_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+}
+entity = {
+	name = "building_special_duomo_florence_02_entity"
+	pdxmesh = "building_special_duomo_florence_02_mesh"
+}
+pdxmesh = {
+	name = "building_special_duomo_florence_03_mesh"
+	file = "building_special_duomo_florence_03.mesh"
+	
+	scale = 0.85
+
+	lod_percentages = { lod = { index = 1 percent = 3.0 } }
+	meshsettings = {
+		name = "building_special_duomo_florence_01_baptistery_LOD_0Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_baptistery_LOD_1Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_duomo_LOD_0Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_duomo_LOD_1Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_decal_02_LOD_0Shape"
+		index = 0
+		texture_diffuse = "duomo_florence_decal.dds"
+		texture_normal = "ep2_building_special_canterbury_decal_03_normal.dds"
+		texture_specular = "ep2_building_special_canterbury_decal_03_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+}
+entity = {
+	name = "building_special_duomo_florence_03_entity"
+	pdxmesh = "building_special_duomo_florence_03_mesh"
+}
+pdxmesh = {
+	name = "building_special_duomo_florence_04_mesh"
+	file = "building_special_duomo_florence_04.mesh"
+
+	scale = 0.85
+
+	lod_percentages = { lod = { index = 1 percent = 3.0 } }
+	meshsettings = {
+		name = "building_special_duomo_florence_01_baptistery_LOD_0Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_baptistery_LOD_1Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_duomo_LOD_0Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_duomo_LOD_1Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_cupola_LOD_0Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_cupola_LOD_1Shape"
+		index = 0
+		texture_diffuse = "building_mediterranean_atlas_diffuse.dds"
+		texture_normal = "building_mediterranean_atlas_normal.dds"
+		texture_specular = "building_mediterranean_atlas_properties.dds"
+		texture = { file = "duomo_florence_unique.dds" index = 5 }
+		shader = "standard_atlas"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "building_special_duomo_florence_01_decal_02_LOD_0Shape"
+		index = 0
+		texture_diffuse = "duomo_florence_decal.dds"
+		texture_normal = "ep2_building_special_canterbury_decal_03_normal.dds"
+		texture_specular = "ep2_building_special_canterbury_decal_03_properties.dds"
+		shader = "decal_local"
+		shader_file = "gfx/FX/pdxmesh_decal.shader"
+		subpass = "LocalDecals"
+	}
+}
+entity = {
+	name = "building_special_duomo_florence_04_entity"
+	pdxmesh = "building_special_duomo_florence_04_mesh"
+}
